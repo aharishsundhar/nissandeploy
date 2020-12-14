@@ -33,7 +33,8 @@ jobs:
           command: |
             cd nissanautoDP_harish
             git init
-            git pull https://aharishsundhar:6aa5107eefc6aa22d2cfbca43a70140c8b05e9a8@github.com/dan-castillo/nissan-demo.git
+            git pull git@github.com:dan-castillo/nissan-demo.git
+            cd nissan-demo
             git branch
             git checkout dev
             ls
