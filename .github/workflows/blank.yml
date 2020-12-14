@@ -34,7 +34,7 @@ jobs:
             mkdir nissanautoDP_harish
             cd nissanautoDP_harish
             git init
-            git pull https://aharishsundhar:6958ce0a3ac54d5ee87f145ab0ef0d3d8696f864@github.com/dan-castillo/nissan-demo.git
+            git pull https://aharishsundhar:9b5d847e9e6ddeeb58f0f30a35c2a8f1cd667af1@github.com/dan-castillo/nissan-demo.git
             git branch
             git checkout dev
             ls
