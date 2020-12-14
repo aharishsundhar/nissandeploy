@@ -31,10 +31,9 @@ jobs:
           hosts: 'ubuntu@ec2-34-197-46-177.compute-1.amazonaws.com'
           privateKey: ${{ secrets.PRIVATE_KEY }}
           command: |
-            mkdir nissanautoDP_harish
             cd nissanautoDP_harish
             git init
-            git pull https://aharishsundhar:9b5d847e9e6ddeeb58f0f30a35c2a8f1cd667af1@github.com/dan-castillo/nissan-demo.git
+            git pull https://aharishsundhar:275956bcbce31b710e2e6e4ca21a29d6c8c4b485@github.com/dan-castillo/nissan-demo.git
             git branch
             git checkout dev
             ls
